@@ -8,3 +8,8 @@
 .nav-wrapper div {
     margin: 10px;
 }
+
+.nav-input {
+    width: 300px;
+    padding: 10px;
+}

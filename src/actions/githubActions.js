@@ -28,4 +28,3 @@ export const getUserFollowing = (userName, pageIndex, pageSize) => dispatch => {
     })
     .catch(err => console.log(err));
 };
-

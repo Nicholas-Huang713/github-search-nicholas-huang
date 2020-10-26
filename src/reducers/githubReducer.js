@@ -1,4 +1,4 @@
-import {GET_USER, GET_USER_FOLLOWING} from '../actions/types';
+import {GET_USER, GET_USER_FOLLOWING, GET_MORE_FOLLOWING} from '../actions/types';
 
 const initialState = {
     user: {},
@@ -17,7 +17,6 @@ export default function(state = initialState, action) {
                 ...state,
                 following: action.payload
             }; 
-            
         default:
             return state;
     }

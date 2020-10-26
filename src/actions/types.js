@@ -1,2 +1,3 @@
 export const GET_USER = 'GET_USER';
 export const GET_USER_FOLLOWING = 'GET_USER_FOLLOWING';
+export const GET_MORE_FOLLOWING = 'GET_MORE_FOLLOWING';

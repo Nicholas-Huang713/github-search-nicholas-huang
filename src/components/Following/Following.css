@@ -1,3 +1,22 @@
-.paper-wrapper {
-    
+.following-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.following-list-wrapper {
+    height: 500px;
+    padding: 10px 80px 10px 80px;
+    overflow: auto;
+}
+
+.following-list-item-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.following-list ul{
+    list-style-type: none;
+
 }

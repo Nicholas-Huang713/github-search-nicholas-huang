@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: lightgreen;
+  --color-secondary: white;
+  --height-header: 60px;
+  --width-todolist: 500px;
+  --todolist-header: 50%;
+  --height-todolist: 500px;
+  --height-todolist-header: 50px;
+}

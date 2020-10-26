@@ -1,0 +1,10 @@
+.nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.nav-wrapper div {
+    margin: 10px;
+}
